@@ -1,0 +1,9 @@
+[package]
+name = "jobb"
+version = "0.1.0"
+authors = ["eperstn <peter.steffensen@ericsson.com>"]
+edition = "2018"
+
+[dependencies]
+gnuplot = "*"
+argparse-rs = "*"

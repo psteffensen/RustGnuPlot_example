@@ -1,0 +1,21 @@
+[[package]]
+name = "argparse-rs"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "gnuplot"
+version = "0.0.26"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "jobb"
+version = "0.1.0"
+dependencies = [
+ "argparse-rs 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gnuplot 0.0.26 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum argparse-rs 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "86b7375967bd48e55045ca1a346d2babeb5735405010a922325b5e2262f65310"
+"checksum gnuplot 0.0.26 (registry+https://github.com/rust-lang/crates.io-index)" = "94ced719051688349bcae457d79b0bb7a4f154ff53b5afef67be4c300651d913"
